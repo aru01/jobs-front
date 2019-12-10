@@ -1,0 +1,47 @@
+.job {
+  .description {
+    font-size: 1.14285714rem;
+  }
+
+  .ui.placeholder {
+    width: 100% !important;
+  }
+}
+
+.ui.jobs.items:last-child {
+  margin-bottom: 4rem !important;
+}
+
+  @media only screen and (min-width: 992px) {
+  .job {
+    padding-bottom: 3rem;
+
+    .description {
+      font-size: 1.14285714rem;
+
+      span:first-child {
+        margin-right: 30px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .job {
+
+    .title {
+      flex-direction: column;
+      align-items: flex-start !important;
+    }
+
+    .description {
+      margin-top: 1rem;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+  }
+}
+.chechicon {
+  margin-left: 1rem !important;
+}

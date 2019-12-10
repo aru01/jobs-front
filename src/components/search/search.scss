@@ -1,0 +1,22 @@
+.search-custom .ui.input > input {
+  border: none;
+  border-bottom: 1px solid rgba(34, 36, 38, .15);
+  border-radius: 0;
+
+  &::placeholder {
+    font-family: 'LatoRegular';
+    font-weight: normal;
+  }
+}
+
+.response {
+  font-size: 1.1rem;
+  padding-bottom: 3.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .response {
+    font-size: 1rem;
+    padding-top: 15px;
+  }
+}

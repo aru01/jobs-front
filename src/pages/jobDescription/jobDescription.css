@@ -1,0 +1,17 @@
+.job-description-loading-enter {
+    opacity: 0.01;
+}
+
+.job-description-loading-enter.job-description-loading-enter-active {
+    opacity: 1;
+    transition: opacity 40ms ease-in-out;
+}
+
+.job-description-loading-appear {
+    opacity: 0.01;
+}
+
+.job-description-loading-appear.job-description-loading-appear-active {
+    opacity: 1;
+    transition: opacity 40ms ease-in-out;
+}

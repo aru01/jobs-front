@@ -1,0 +1,23 @@
+.header-form {
+  background: #652D86;
+  padding: 20px 0;
+  margin-bottom: 45px;
+}
+
+.header-container {
+  color: white;
+}
+
+.logo-header {
+  height: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .header-global {
+    padding: 20px 0;
+  }
+
+  .logo-header {
+    height: 16px;
+  }
+}

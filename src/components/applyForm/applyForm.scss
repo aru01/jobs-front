@@ -1,0 +1,43 @@
+h2.text-zone {
+  margin-bottom: 30px;
+}
+
+.button-apply {
+  padding-top: 30px;
+}
+
+.input-upload {
+  display: none;
+}
+
+.ui.pointing.basic.label {
+  background: #FFF6F6;
+  color: #9F3A38;
+}
+
+
+@media only screen and (min-width: 992px) {
+  .apply-form {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .apply-form {
+
+
+    .form-field {
+      width: 100%;
+
+      .ui.grid > .row > .column.column-margin-buttom {
+        margin-bottom: 2rem;
+      }
+    }
+
+    .button-apply {
+      width: 100%;
+    }
+  }
+}
+
+
